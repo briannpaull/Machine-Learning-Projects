@@ -1,0 +1,119 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","wassup","try catch"],
+         "responses": ["Hello, how may I help you", "Hello, greetings from trycatch team", "Hi there!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "thanks for details"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context_set": ""
+        },
+        
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?","what are your working hours"],
+         "responses": ["We're open every day 10am-9pm", "Our hours are 10am-9pm every day","we are available 24*7 hours"],
+         "context_set": ""
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ,"Can I do online payment"],
+         "responses": ["We accept Card payment, cash, cheque and even you van pay online from our site"],
+         "context_set": ""
+        },
+        {"tag": "open today",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 10am-9pm", "Our hours are 9am-9pm every day"],
+         "context_set": ""
+        },
+        {"tag": "All Courses",
+         "patterns": ["what all courses you offer?", "what are available courses", "option of courses","what you offer"],
+         "responses": ["UI-UX-Graphics-Architect Design, Data Science , JAVA , Mobile Application Development , Web Design & Development , Software Testing , Digital Marketing"],
+         "context_set": ""
+        },
+        {"tag": "UI UX Graphics,Architect Design",
+         "patterns": ["what i can learn in graphics?", "What i can learn in architect design?", "What i can learn in UI and UX?", "what will be the topic covered"],
+         "responses": ["Sketch training, CorelDraw, Adobe Photoshop and many more", "AutoCad 2D, Lumion Training, REVIT and many more", "Adobe Illustrator, SketchUp Training, REVIT and man more"],
+         "context_set": ""
+        },
+        {"tag": "Data Science",
+         "patterns": ["what i can learn in data science", "what are the topics covered in data science", "complete courses of data science"],
+         "responses": ["Python, Machine learning with python, R, Tableau, Business analytics, advance excel, SAS, python for finance"],
+         "context_set": ""
+        },
+        {"tag": "JAVA",
+         "patterns": ["what i can learn in java", "what are the topics covered in java", "complete courses of java"],
+         "responses": ["Core Java and Advance Java"],
+         "context_set": ""
+        },
+        {"tag": "Mobile Application Development",
+         "patterns": ["which OS app development i can learn in application development", "what are the topics covered in mobile application development", "courses of mobile application development"],
+         "responses": ["Android Development ,IOS training, React Native Training, augmented Reality, Ionic Framework"],
+         "context_set": ""
+        },
+        {"tag": "Web Design & Development",
+         "patterns": ["what i can learn in web development", "what i can i learn in web design", "what topics are available in web design and development"],
+         "responses": ["HTML5 – CSS3,CSS, Bootstrap, Javascript, Jquery and many more", "Angular Training, Node.JS, React JS, PHP and many more", "Laravel Training, Codeigniter, Django, WordPress, Magento, DOT NET, DOT NET MVC and many more"],
+         "context_set": ""
+        },
+        {"tag": "Software Testing",
+         "patterns": ["what i can learn in Software testing", "courses offered in software testing", "topics covered in software testing"],
+         "responses": ["Selenium Training , Protractor: End to End testing framework for AngularJS Apps, Javascript, Jquery, Angular Training, QTP"],
+         "context_set": ""
+        },
+        {"tag": "Digital Marketing",
+         "patterns": ["what i can learn in digital marketing", "courses offered in digital marketing", "topics covered in digital marketing"],
+         "responses": ["SEO Training , Google analytics, PPC, and many more"],
+         "context_set": ""
+        },
+        {"tag": "jobs and internships",
+         "patterns": ["do you offer Guarante jobs", "provide job placement?", "do you provide internship", "will i get internship training"],
+         "responses": ["yes, we do provide internship","we provide our student job placements but we dont Guarante"],
+         "context_set": ""
+        },
+         {"tag": "benifits",
+         "patterns": ["what are the benifits of joining you","Do you provide books or soft copy"],
+         "responses": ["We are award winning instution our certificate is well recognized, We do also provide our students with job and internship","Yes we do provide softcopy notes to our students"],
+         "context_set": ""
+        },
+        {"tag": "time and lenth of courses",
+         "patterns": ["do you have weekend batch","what is the length of course","what will be time of classes","How much time will you finish the course in?"],
+         "responses": ["Yes, we do have weekend batches","Length of your courses depends on our students","we adjust our classes time according to our student","We finish our courses as per the understandment of our students"],
+         "context_set": ""
+        },
+        {"tag": "batches size and time",
+         "patterns": ["what is the batch size of class","number of batches available","number of classroom available"],
+         "responses": ["class batch size is 16 students","we dont have specific number of batch available, it depends on admission volume","we we have 4 classroom, we also do do have study area for our students"],
+         "context_set": ""
+        },
+        {"tag": "Demo lecture",
+         "patterns": ["Do you offer Demo or Trial class before joining?","where are branches of trycatch","what are the placement rate of your classes","do you give demo lecture","do you give trial lectures"],
+         "responses": ["we do provide demo or trial class before joining","We are one and only of our kind we dont have any branches","our placement rate is 3/5"],
+         "context_set": ""
+        },
+        {"tag": "teachers",
+         "patterns": ["who teaches ML", "who teaches python", "who teaches R","who teaches PHP","who teaches machine learning","who teaches data science","who teaches ai"],
+         "responses": ["abc teaches machine learning and R, he is professional with 8 years of experience","xyzzy teaches python and PhP","abc sir teaches data science","abc teaches ai"],
+         "context_set": ""
+        },
+         {"tag": "Contact Us",
+         "patterns": ["contact details", "contact number", "what is your Address","can i have your email id"],
+         "responses": ["Call On : +91-9930XX2627 / 9664XX072","1213/1214, 12th Floor, GoldCrest, L.T. Road, Borivali West","our email id: test@trycatch.com"],
+         "context_set": ""
+        },
+        {"tag": "complaints",
+         "patterns": ["not teaches properly", "i have to complaint", "i have issue","can not adjust time"],
+         "responses": ["Feel free to talk with admin or admin regarding any issue. They are their to help you any time"],
+         "context_set": ""
+        },
+        {"tag": "fees",
+         "patterns": ["what would be the fee structure", "fees","can i do payment in installment"],
+         "responses": ["We can not disclose our fee structure according to company policy feel free to contact us for more details, +91-9930112627 / 9664545072","yes you can do payment in installment"],
+         "context_set": ""
+        }
+   ]
+}
